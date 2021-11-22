@@ -12,7 +12,7 @@ const displayBooks = () => {
     const div = document.createElement('div');
     div.classList.add('book');
     div.innerHTML = `
-    <h5>${book.title}</h5>  
+    <p>${book.title}</p>  
     <p>${book.author}</p>  
     <button class="remove">remove</button>
     <hr>
