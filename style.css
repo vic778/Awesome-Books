@@ -1,6 +1,6 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background: white;
 }
 
@@ -15,8 +15,9 @@ body {
   margin-left: 350px;
 }
 
-.title, .author {
-  margin: 10px;  
+.title,
+.author {
+  margin: 10px;
   padding: 5px;
 }
 
