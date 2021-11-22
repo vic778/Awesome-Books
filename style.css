@@ -4,25 +4,36 @@ body {
   background: white;
 }
 
-.heading {
-  margin-left: 360px;
+.container {
+  text-align: center;
+  padding: 10px 10px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  margin-left: 350px;
+  margin: 10px;
+  width: 20%;
+  margin-left: 665px;
+  
 }
 
-.title,
-.author {
-  margin: 10px;
-  padding: 5px;
+.title, .author {
+  margin: 10px; 
 }
 
 .add-button {
-  width: 50px;
-  align-items: flex-end;
-  margin-left: 12px;
+  width: 15%;
+  margin-left: 10px;
 }
+
+.name, .writer {
+  margin: 0;
+  margin-left: -75px;
+}
+
+.remove-button {
+  margin-left: -89px;
+}
+
+
