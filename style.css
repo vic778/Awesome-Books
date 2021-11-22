@@ -1,3 +1,27 @@
 body {
+  margin: 0px;
+  padding: 0px;
   background: white;
+}
+
+.heading {
+  margin-left: 360px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 350px;
+}
+
+.title, .author {
+  margin: 10px;  
+  padding: 5px;
+}
+
+.add-button {
+  width: 50px;
+  align-items: flex-end;
+  margin-left: 12px;
 }
