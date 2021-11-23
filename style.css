@@ -1,3 +1,104 @@
+body {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.sec-width {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 5%;
+}
+
+a,
+.nav-link {
+  color: black;
+}
+
+a:hover {
+  opacity: 70%;
+}
+
+.active {
+  color: blue;
+}
+
+.center {
+  margin-left: 25%;
+}
+
 .book {
-  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.books {
+  border: 3px solid black;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.book:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.collection {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+}
+
+.empty {
+  width: 10%;
+}
+
+.reremove {
+  width: 15%;
+  text-align: center;
+  padding-right: 2%;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 10% auto;
+}
+
+.date {
+  text-align: end;
+}
+
+#add-button {
+  margin: 0 auto;
+  margin-left: 60%;
+  margin-top: 10px;
+}
+
+.list-group-item {
+  border: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .sec-width {
+    width: 70%;
+  }
+
+  .books {
+    width: 70%;
+  }
+
+  #add-button {
+    margin-left: 55%;
+  }
 }
